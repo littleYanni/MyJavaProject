@@ -4,7 +4,7 @@ import java.nio.charset.StandardCharsets;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        String text = "Привет, мир!, Hello Yana!";
+        String text = "Привет, мир!, Hello Yana!\nThis is a feature branch!";
         try (OutputStreamWriter writer = new OutputStreamWriter(System.out, StandardCharsets.UTF_8)) {
             writer.write(text);
             writer.flush();
@@ -13,3 +13,4 @@ public class HelloWorld {
         }
     }
 }
+
